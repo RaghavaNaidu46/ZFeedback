@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48CFF84C2C919A2A0071823D /* ZohoLensFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 48CFF84B2C919A2A0071823D /* ZohoLensFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48CFF8622C919A3D0071823D /* ContentString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CFF8532C919A3D0071823D /* ContentString.swift */; };
+		48CFF8632C919A3D0071823D /* AssistRateUsFeedbackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CFF8552C919A3D0071823D /* AssistRateUsFeedbackViewModel.swift */; };
+		48CFF8642C919A3D0071823D /* FeedbackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CFF8562C919A3D0071823D /* FeedbackViewModel.swift */; };
+		48CFF8652C919A3D0071823D /* EmojiItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CFF8582C919A3D0071823D /* EmojiItemView.swift */; };
+		48CFF8662C919A3D0071823D /* FlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CFF8592C919A3D0071823D /* FlowView.swift */; };
+		48CFF8672C919A3D0071823D /* SendItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CFF85A2C919A3D0071823D /* SendItemView.swift */; };
+		48CFF8682C919A3D0071823D /* SystemLogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CFF85B2C919A3D0071823D /* SystemLogsView.swift */; };
+		48CFF8692C919A3D0071823D /* RateSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CFF85D2C919A3D0071823D /* RateSession.swift */; };
+		48CFF86A2C919A490071823D /* ZLensFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48CFF8522C919A3D0071823D /* ZLensFeedback.framework */; platformFilter = ios; };
+		48CFF86B2C919A490071823D /* ZLensFeedback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48CFF8522C919A3D0071823D /* ZLensFeedback.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48CFF86C2C919A490071823D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				48CFF86B2C919A490071823D /* ZLensFeedback.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		48CFF8482C919A2A0071823D /* ZohoLensFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZohoLensFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48CFF84B2C919A2A0071823D /* ZohoLensFeedback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZohoLensFeedback.h; sourceTree = "<group>"; };
+		48CFF8522C919A3D0071823D /* ZLensFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZLensFeedback.framework; sourceTree = "<group>"; };
+		48CFF8532C919A3D0071823D /* ContentString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentString.swift; sourceTree = "<group>"; };
+		48CFF8552C919A3D0071823D /* AssistRateUsFeedbackViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistRateUsFeedbackViewModel.swift; sourceTree = "<group>"; };
+		48CFF8562C919A3D0071823D /* FeedbackViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewModel.swift; sourceTree = "<group>"; };
+		48CFF8582C919A3D0071823D /* EmojiItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiItemView.swift; sourceTree = "<group>"; };
+		48CFF8592C919A3D0071823D /* FlowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowView.swift; sourceTree = "<group>"; };
+		48CFF85A2C919A3D0071823D /* SendItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendItemView.swift; sourceTree = "<group>"; };
+		48CFF85B2C919A3D0071823D /* SystemLogsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemLogsView.swift; sourceTree = "<group>"; };
+		48CFF85D2C919A3D0071823D /* RateSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateSession.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48CFF8452C919A2A0071823D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CFF86A2C919A490071823D /* ZLensFeedback.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48CFF83E2C919A2A0071823D = {
+			isa = PBXGroup;
+			children = (
+				48CFF84A2C919A2A0071823D /* ZohoLensFeedback */,
+				48CFF8492C919A2A0071823D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48CFF8492C919A2A0071823D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48CFF8482C919A2A0071823D /* ZohoLensFeedback.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48CFF84A2C919A2A0071823D /* ZohoLensFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				48CFF8602C919A3D0071823D /* ZRateusView */,
+				48CFF84B2C919A2A0071823D /* ZohoLensFeedback.h */,
+				48CFF8522C919A3D0071823D /* ZLensFeedback.framework */,
+			);
+			path = ZohoLensFeedback;
+			sourceTree = "<group>";
+		};
+		48CFF8542C919A3D0071823D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				48CFF8532C919A3D0071823D /* ContentString.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		48CFF8572C919A3D0071823D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				48CFF8552C919A3D0071823D /* AssistRateUsFeedbackViewModel.swift */,
+				48CFF8562C919A3D0071823D /* FeedbackViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		48CFF85C2C919A3D0071823D /* RateSessionViewItems */ = {
+			isa = PBXGroup;
+			children = (
+				48CFF8582C919A3D0071823D /* EmojiItemView.swift */,
+				48CFF8592C919A3D0071823D /* FlowView.swift */,
+				48CFF85A2C919A3D0071823D /* SendItemView.swift */,
+				48CFF85B2C919A3D0071823D /* SystemLogsView.swift */,
+			);
+			path = RateSessionViewItems;
+			sourceTree = "<group>";
+		};
+		48CFF85E2C919A3D0071823D /* RateSession */ = {
+			isa = PBXGroup;
+			children = (
+				48CFF85C2C919A3D0071823D /* RateSessionViewItems */,
+				48CFF85D2C919A3D0071823D /* RateSession.swift */,
+			);
+			path = RateSession;
+			sourceTree = "<group>";
+		};
+		48CFF85F2C919A3D0071823D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48CFF85E2C919A3D0071823D /* RateSession */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48CFF8602C919A3D0071823D /* ZRateusView */ = {
+			isa = PBXGroup;
+			children = (
+				48CFF8542C919A3D0071823D /* Constants */,
+				48CFF8572C919A3D0071823D /* ViewModels */,
+				48CFF85F2C919A3D0071823D /* Views */,
+			);
+			path = ZRateusView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48CFF8432C919A2A0071823D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CFF84C2C919A2A0071823D /* ZohoLensFeedback.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48CFF8472C919A2A0071823D /* ZohoLensFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48CFF84F2C919A2A0071823D /* Build configuration list for PBXNativeTarget "ZohoLensFeedback" */;
+			buildPhases = (
+				48CFF8432C919A2A0071823D /* Headers */,
+				48CFF8442C919A2A0071823D /* Sources */,
+				48CFF8452C919A2A0071823D /* Frameworks */,
+				48CFF8462C919A2A0071823D /* Resources */,
+				48CFF86C2C919A490071823D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZohoLensFeedback;
+			productName = ZohoLensFeedback;
+			productReference = 48CFF8482C919A2A0071823D /* ZohoLensFeedback.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48CFF83F2C919A2A0071823D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					48CFF8472C919A2A0071823D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 48CFF8422C919A2A0071823D /* Build configuration list for PBXProject "ZohoLensFeedback" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48CFF83E2C919A2A0071823D;
+			productRefGroup = 48CFF8492C919A2A0071823D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48CFF8472C919A2A0071823D /* ZohoLensFeedback */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48CFF8462C919A2A0071823D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48CFF8442C919A2A0071823D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CFF8652C919A3D0071823D /* EmojiItemView.swift in Sources */,
+				48CFF8632C919A3D0071823D /* AssistRateUsFeedbackViewModel.swift in Sources */,
+				48CFF8662C919A3D0071823D /* FlowView.swift in Sources */,
+				48CFF8622C919A3D0071823D /* ContentString.swift in Sources */,
+				48CFF8692C919A3D0071823D /* RateSession.swift in Sources */,
+				48CFF8642C919A3D0071823D /* FeedbackViewModel.swift in Sources */,
+				48CFF8672C919A3D0071823D /* SendItemView.swift in Sources */,
+				48CFF8682C919A3D0071823D /* SystemLogsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48CFF84D2C919A2A0071823D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48CFF84E2C919A2A0071823D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48CFF8502C919A2A0071823D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZohoLensFeedback",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jambav.ZohoLensFeedback;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48CFF8512C919A2A0071823D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZohoLensFeedback",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jambav.ZohoLensFeedback;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48CFF8422C919A2A0071823D /* Build configuration list for PBXProject "ZohoLensFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CFF84D2C919A2A0071823D /* Debug */,
+				48CFF84E2C919A2A0071823D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48CFF84F2C919A2A0071823D /* Build configuration list for PBXNativeTarget "ZohoLensFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CFF8502C919A2A0071823D /* Debug */,
+				48CFF8512C919A2A0071823D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48CFF83F2C919A2A0071823D /* Project object */;
+}
